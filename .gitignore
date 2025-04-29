@@ -1,0 +1,47 @@
+# Archivos y carpetas del motor que no deben rastrearse
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+.idea/
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.opensdf
+*.sdf
+*.cache
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Archivos específicos de Unreal
+*.aps
+*.ncb
+*.user
+*.userprefs
+*.uo
+*.sublime-workspace
+*.sublime-project
+
+# Ignora los archivos de compilación
+*.obj
+*.pch
+*.pdb
+*.exe
+*.dll
+*.lib
+*.app
+*.dylib
+*.ipa
+
+# Evita ignorar los archivos esenciales del proyecto
+!Source/
+!Content/
+!Config/
+!*.uproject
